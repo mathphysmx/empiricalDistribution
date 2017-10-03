@@ -1,0 +1,15 @@
+Package: empiricalDistribution
+Type: Package
+Title: Empirical Distributions
+Version: 0.1.0
+Author: Francisco Mendoza-Torres
+Maintainer: Francisco Mendoza-Torres <mentofran@gmail.com>
+Description: Computes several forms of the univariate empirical distribution
+    functions and plotting positions and the empirical bivariate distribution and function.
+Depends:
+    R (>= 3.4.1),
+    squash
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
