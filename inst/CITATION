@@ -3,6 +3,7 @@ note <- sprintf("R package version %s", meta$Version)
 
 bibentry(bibtype = "Manual",
          title = "{empiricalDistribution}: An R package to compute empirical distributions and plotting positions",
-         author = c(person("Francisco", "Mendoza Torres")),
+         author = c(
+    person("Mendoza-Torres", "Francisco", email = "mentofran@gmail.com",             role = c("aut", "cre")), person("Erdely",            "Arturo", email = "arturo.erdely@comunidad.unam.mx", role = c("aut", "cre")), person("Diaz-Viera",     "Martin A.", email = "mdiazv@imp.mx",                   role = "aut")),
          year = 2017,
          url = "https://github.com/mathphysmx/empiricalDistribution")

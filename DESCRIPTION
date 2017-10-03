@@ -2,7 +2,8 @@ Package: empiricalDistribution
 Type: Package
 Title: Empirical Distributions
 Version: 0.1.0
-Author: Francisco Mendoza-Torres
+Authors@R: c(
+    person("Mendoza-Torres", "Francisco", email = "mentofran@gmail.com",             role = c("aut", "cre")), person("Erdely",            "Arturo", email = "arturo.erdely@comunidad.unam.mx", role = "aut"), person("Diaz-Viera",     "Martin A.", email = "mdiazv@imp.mx",                   role = "aut"))
 Maintainer: Francisco Mendoza-Torres <mentofran@gmail.com>
 Description: Computes several forms of the univariate empirical distribution
     functions and plotting positions and the empirical bivariate distribution and function.
